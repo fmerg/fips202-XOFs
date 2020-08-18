@@ -1,0 +1,17 @@
+[package]
+name = "fips202"
+version = "0.1.0"
+authors = [
+	"foteinosmerg@protonmail.com"
+]
+edition = "2018"
+
+[dependencies]
+
+[dev-dependencies]
+sha3 = "0.9"
+criterion = "0.3"
+
+[[bench]]
+name = "main"
+harness = false
